@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./CSS/estilo.css" media="screen" />
+    <meta charset="UTF-8">
+    <title>Contato-Full Stack Eletro</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <nav id="menu">
+        <a href="index1.html"><img src="./img/logoo.png" width="122px" alt="Full Stack Eletro">
+            <a href="produto1.html">Produtos</a>
+            <a href="loja1.html">Lojas</a>
+            <a href="contato1.html">Contato</a>
+    </nav>
+
+ 
+
+    <!-- nome-->
+    <!-- </table>
+    </table> -->
+    <br>
+    <h1>Entre em contato conosco</h1><br>
+
+    <hr>
+
+  
+
+    <section class="contato">
+        <div class="contatoEmail">
+            <img class="imge" src="img/email-logo.png" width="120px" alt="email">
+
+            <br>
+            <input class="demoemail" type="text" oncopy="myFunction()" value="contato@fullstackeletro.com">
+            <p id="demo"></p>
+            <script>
+                function myFunction() {
+                  document.getElementById("demo").innerHTML = "E-mail copiado com sucesso!"
+                }
+                </script>
+            <!-- <p class="descricao">contato@fullstackeletro.com</p> -->
+            
+            <br>
+
+<!--  <input type="text" oncopy="myFunction()" value="Try to copy this text">
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "You copied text!"
+        }
+        </script>
+ -->
+
+        </div>
+    </section>
+
+    <section class="contato">
+        <div class="contatoZap">
+            <img class="imge" src="./img/whats-logo.jpg" width="120px" alt="whatsapp contato">
+
+            <br>
+            <input class="demonum" type="text" oncopy="myFunction1()" value="(11)99999-9999">
+            <p id="demowhats"></p>
+            <script>
+                function myFunction1() {
+                  document.getElementById("demowhats").innerHTML = "Número de whatsApp copiado!"
+                }
+                </script>
+
+            <!-- <p class="descricao">(11)99999-9999</p> -->
+            <br>
+            <!-- <input class="demo1" type="text" oncopy="myFunction()" value="contato@fullstackeletro.com">
+            <p id="demo"></p>
+            <script>
+                function myFunction() {
+                  document.getElementById("demo").innerHTML = "E-mail copiado com sucesso!"
+                }
+                </script> -->
+
+        </div>
+
+       
+    </section>
+
+    <form>
+        <h4>Nome: </h4>
+        <input type="text" style="width: 400px"> 
+        <h4>Mensagem: </h4>
+        <textarea style="width: 400px;"></textarea>
+        <input type="submit" value="Cancelar">
+        <!-- <button onclick="funcao1()">Enviar</button> -->
+        <input class="enviar1" type="button" onclick="funcao1()" value="Enviar">
+            <p id="enviarid"></p>
+            <script>
+                function funcao1() {
+                  document.getElementById("enviarid").innerHTML = "mensagem enviada com sucesso!"
+                }
+                </script>
+    </form>
+    <br><br><br>
+
+    <footer id="rodape">
+        <p id="formasPagamento">
+            <b>Formas de pagamento:</b>
+        </p>
+        <img src="./img/Cartao.jpeg" alt="Formas de pagamento" height="70">
+        <p>&copy; Recode Pro </p>
+    </footer>
+  
+</body>
+
+</html>
